@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "qui etes-vous ?",
+        "C'est qoui un chatbot ?",
+        "Est-ce que quelqu'un est la?"
+      ],
+      "responses": [
+        "Un chatbot aussi nomme dialogueur ou agent conversationnel.",
+        "Chatbot est un agent qui dialogue avec un utilisateur.",
+        "Chatbot est donner l'illusion qu'un programme pense par  un dialogue sense.",
+        "Bonjour, comment puis-je vous aider ?"
+      ]
+    },
+    {
+      "tag": "salut",
+      "patterns": [
+        "Salut ",
+        "Comment ça va",
+         "Cc",
+        "Est-ce que quelqu'un est la?",
+        "Bonjour",
+        "Bonne journee"
+      ],
+      "responses": [
+        "Salut \uD83D\uDE04",
+        "Bonjour, merci de votre visite",
+        "Bonjour, que puis-je faire pour vous ?",
+        "Bonjour, comment puis-je vous aider ?"
+      ]
+    },
+    {
+      "tag": "au revoir",
+      "patterns": [
+        "Au revoir",
+        "A plus tard",
+        "Au revoir"
+      ],
+      "responses": [
+        "A plus tard, merci de votre visite",
+        "Bonne journee",
+        "Au revoir! Revenez bientot."
+      ]
+    },
+     {
+      "tag": "merci",
+      "patterns": [
+        "Merci", "Merci",
+        "C'est utile",
+        "Merci beaucoup!"
+       ],
+      "responses": [
+        "Heureux de vous aider! , Email de FSSM  : '✉'️ ecampus_contact.fssm@uca.ma   ",
+        "A tout moment! , Pour contacte FSSM :+212 (0)5 24 43 46 49",
+        "Mon plaisir , le service de communication et d'orientation : \n http://fssm.uca.ma/\n Mobile : +212 (0)5 24 43 46 49 Fax. : +212 (0)5 24 43 67 69\n ecampus_contact.fssm@uca.ma "]
+    },
+    {
+      "tag": "FSSM",
+      "patterns": [
+        "Quelque information sur FSSM ?",
+        "C'est quoi FSSM ?",
+        "C'est quoi les filiere dans fssm ?",
+        "C'est quoi les filiéres ouvertes à la FSSM ?"
+                  ],
+      "responses": [
+         "Cree en 1978, la Faculte des Sciences Semlalia de Marrakech (FSSM) est le premier etablissement de l'enseignement \nsuperieur ouvert dans \nla region de Marrakech Tensift Al Haouz. \nDepuis sa creation, notre faculte a activement contribue au rayonnement et à l'evolution des Sciences \n en poursuivant avec \ndynamisme sa mission de formation et de recherche. Pour ne citer que certains aspects \nde cet engagement, il est utile de rappeler l'effort considerable \nconsenti par la FSSM dans la formation initiale, continue et la recherche scientifique: eninnovant, \nen encourageant les partenariats et en ecoutant les acteurs socio economiques de \nla region pour identifier leurs besoins en formation et en recherche-developpement. La FSSM repond ainsi a ses missions \nprincipales de Universite, a savoir :\n - Enseignement\n - Recherche\n - Formation\n - Ouverture sur l'environnement \n  socio-economique du pays.",
+        "filieres fondamentales nationales dans FSSM:\n Sciences Mathematiques et Applications (SMA).\n Sciences Mathematiques Informatique (SMI)\n Sciences de la Matiere Physique (SMP)\n Sciences de la Matiere Chimie (SMC)\n Sciences de la Terre et de Univers (STU)\n Sciences de la Vie (SV)",
+         "le site de FSSM : \uD83D\uDD17 https://ecampus-fssm.uca.ma/ "
+      ]
+    },
+    {
+      "tag": "Emploi",
+      "patterns": [
+        "Quelle est ma chronologie ?",
+        "C'est quoi mon emploi du temps ?"
+                  ],
+      "responses": [
+        "le site des emploi du temps  : \uD83D\uDD17 http://emploi-fssm.uca.ma/ "
+      ]
+    },
+    {
+      "tag": "Departements",
+      "patterns": [
+        "C'est les departements existe  ?"
+                  ],
+      "responses": [
+         "La Faculte comporte 6 departements :\nLe Departement de Biologie.\nLe Departement de Chimie\nLe Departement de Geologie\nLe Departement d'Informatique\nLe Departement de Physique\nLe Departement des Mathematiques",
+         "Chaque Departement est coordonne par un Chef de Departement et gere les activites\nde formation et d'enseignement des modules de la discipline."
+      ]
+    },
+    {
+      "tag": "Services",
+      "patterns": [
+        "C'est les services existe ?",
+        "Service ! "
+                  ],
+      "responses": [
+        "Ils sont rattaches au Decanat et ont une double mission :\n- la gestion administrative et financiere courante de l'etablissement\n- l'interface avec le Ministere de tutelle et l'administration centrale.",
+        "les services sont :\n- L'Espace Accueil - Information et Orientation (E.A.I.O)\n- Le service des Affaires Estudiantines Licence (Scolarite Licence)\n- Le service des affaires estudiantines Master et Doctorat (Scolarite Master et Doctorat)\n- Le service des affaires sociales et sportives (Bourses)\n- La Bibliotheque Centrale\n - L'Espace Multimedia pedagogique\n- L'infirmerie\n- Le centre d'Ecoute"
+      ]
+    },
+    {
+      "tag": "Reclamation",
+      "patterns": [
+        "comment faire un reclamation  ?",
+        "C'est le site de reclamation  ?"
+                  ],
+      "responses": [
+       "Pour toutes informations ou reclamations, priere d'ecrire un email a : ecampus_contact.fssm@uca.ma."
+      ]
+    },
+    {
+      "tag": "Moudele",
+      "patterns": [
+        " liste des  moudeles  ?"
+                  ],
+      "responses": [
+       "Listes cours, TD et TP sur lien suivant : \uD83D\uDD17 https://ecampus-fssm.uca.ma/course/view.php?id=458"
+      ]
+    },
+    {
+      "tag": "drole",
+      "patterns": [
+        "comment valider FSSM dans sans lire le cours ?",
+        "est-ce-que lire le cours est suffisant ?"
+      ],
+      "responses": [
+        "je sais des personne qui lire le cours et faire des exercices , et non valider \uD83D\uDE02"
+      ]
+    }
+  ]
+}
